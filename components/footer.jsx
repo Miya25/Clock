@@ -182,10 +182,7 @@ const Footer = () => {
           </div>
           <div className="footer-bottom">
             <div className="copy-right">
-              <p>
-                © 2023 RSEnterprices
-                . All Rights Reserved.
-              </p>
+              <p>© 2023 RSEnterprices . All Rights Reserved.</p>
             </div>
           </div>
         </div>

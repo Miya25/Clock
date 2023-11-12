@@ -15,7 +15,7 @@ export default function handler(req, res) {
             equipment: exercise.equipment,
             name: exercise.name,
             target: exercise.target,
-          }))
+          })),
         ),
       ];
 

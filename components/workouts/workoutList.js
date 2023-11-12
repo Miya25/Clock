@@ -28,7 +28,7 @@ const WorkoutList = ({ items }) => (
             />
           </div>
         </li>
-      )
+      ),
     )}
   </ul>
 );

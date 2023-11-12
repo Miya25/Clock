@@ -19,7 +19,7 @@ const LoadingAnimation = () => {
         ease: SteppedEase.config(17),
         repeat: -1,
       },
-      0
+      0,
     );
 
     // Text cursor animation
@@ -34,7 +34,7 @@ const LoadingAnimation = () => {
         repeat: -1,
         ease: SteppedEase.config(17),
       },
-      0
+      0,
     );
 
     tl.play();

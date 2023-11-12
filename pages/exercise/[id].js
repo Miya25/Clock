@@ -34,19 +34,19 @@ const ExerciseDetail = () => {
 
       const exerciseVideosData = await fetchData(
         `${youtubeSearchUrl}/search?query=${exerciseDetailData.name} exercise`,
-        youtubeOptions
+        youtubeOptions,
       );
       setExerciseVideos(exerciseVideosData.contents);
 
       const targetMuscleExercisesData = await fetch(
-        `/api/exercises?target=${exerciseDetailData.target}`
+        `/api/exercises?target=${exerciseDetailData.target}`,
       )
         .then((response) => response.json())
         .catch((error) => console.error(error));
       setTargetMuscleExercises(targetMuscleExercisesData);
 
       const equimentExercisesData = await fetch(
-        `/api/exercises?equipment=${exerciseDetailData.equipment}`
+        `/api/exercises?equipment=${exerciseDetailData.equipment}`,
       )
         .then((response) => response.json())
         .catch((error) => console.error(error));
